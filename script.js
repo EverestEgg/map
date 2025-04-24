@@ -16,7 +16,7 @@ var rocks = L.marker([-37.838217, 144.873405],{
 
 rocks.bindPopup(
     ("<h3>Rock Bridge</h3> <a class='pageshift' href='Further/rock.html'><img class='linkimg' src='contwent/inside.jpg'></a> <br> <audio controls src='contwent/217138__lonemonk__1964-chrysler-horn-honk-short.mp3' type=audio/mp3>"),{
-    maxWidth: 220,
+    maxWidth: 190,
 })
 // Single quotations for HTML
 
