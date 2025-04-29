@@ -18,7 +18,7 @@ var rocks = L.marker([-37.838217, 144.873405], {
 }).addTo(map);
 
 rocks.bindPopup(
-  "<h3>Rock Bridge</h3> <a class='pageshift' href='Further/rock.html'><img class='linkimg' src='contwent/inside.jpg'></a> <br> <audio controls src='contwent/websiteadd.mp3' type=audio/mp3>",
+  "<h3>Rock Bridge</h3> <a class='pageshift' href='Further/rock.html'><img class='linkimg' src='Images/inside.jpg'></a> <br> <audio controls src='contwent/websiteadd.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
