@@ -33,5 +33,5 @@ function showSlides(n) {
 }
 
 function back() {
-  window.location.href = "../map/index.html";
+  window.location.href = "../index.html";
 }
