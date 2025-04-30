@@ -34,4 +34,6 @@ function showSlides(n) {
 
 function back() {
   window.location.href = "../index.html";
+
+  //pls work
 }
