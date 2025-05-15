@@ -1,66 +1,65 @@
 * {
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    background-color: white;
-    padding: 12px;
-    padding-bottom: 0;
-    font-size: x-large;
-    font-style: italic;
+h1 {
+  background-color: white;
+  padding: 12px;
+  padding-bottom: 0;
+  font-size: x-large;
+  font-style: italic;
 }
 
-h3{
-    font-size: large;
-    font-style: italic;
-    padding: 12px;
-    padding-bottom: 2px;
+h3 {
+  font-size: large;
+  font-style: italic;
+  padding: 12px;
+  padding-bottom: 2px;
 }
-p{
-    margin: auto;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    width: 95%;
-    height: 35vmax;
-    border: solid;
+p {
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  width: 95%;
+  padding: 10px;
 }
-audio{
-    display: block;
-    margin: auto;
-    height: 25px;
-    width: 95%;
-}
-
-button{
-    position: relative;
-    margin: 12px;
-    padding: 6px;
-    width: 30%;
-    left: 35%;
+audio {
+  display: block;
+  margin: auto;
+  height: 25px;
+  width: 95%;
 }
 
-footer{
-    position: relative;
-    bottom: 0;
-    height: 6vmax;
-    background-color: lightblue;
+button {
+  position: relative;
+  margin: 12px;
+  padding: 6px;
+  width: 30%;
+  left: 35%;
 }
-.footbt{
-    margin: 0;
-    height: 100%;
-    border: none;
-    left: 1px;
-    width: 32%;
-    background-color: lightblue;
-    display: inline ;
+
+footer {
+  position: relative;
+  bottom: 0;
+  height: 6vmax;
+  background-color: lightblue;
 }
-.footbt:hover{
-    background-color: rgb(106, 151, 167);
+.footbt {
+  margin: 0;
+  height: 100%;
+  border: none;
+  left: 1px;
+  width: 32%;
+  background-color: lightblue;
+  display: inline;
+}
+.footbt:hover {
+  background-color: rgb(106, 151, 167);
 }
 /* Image gallery styleing */
-#imagegallery{
-    padding-top: 3%;
+#imagegallery {
+  padding-top: 3%;
 }
 /* Slideshow container */
 .slideshow-container {
@@ -73,7 +72,8 @@ footer{
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -93,8 +93,9 @@ footer{
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -120,7 +121,7 @@ footer{
 
 /* The dots/bullets/indicators */
 .dot {
-    position: relative;
+  position: relative;
   cursor: pointer;
   height: 9px;
   width: 9px;
@@ -131,7 +132,8 @@ footer{
   transition: background-color 0.6s ease;
   bottom: 10px;
 }
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -142,6 +144,10 @@ footer{
 }
 
 @keyframes fade {
-  from {opacity: .3}
-  to {opacity: 1}
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
 }
