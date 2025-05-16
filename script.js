@@ -1,12 +1,12 @@
 function next() {
-  window.location.href = "../map.html";
+  window.location.href = "../map/map.html";
   //pls work
 }
 function about(){
-window.location.href = "../about.html";
+window.location.href = "../map/about.html";
 }
 function credits(){
-window.location.href = "../credit.html";
+window.location.href = "../map/credit.html";
 }
 
 
