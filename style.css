@@ -1,16 +1,57 @@
 
 
 #map{
-    height: 95vh;
+    height: 93vh;
 }
 
-#start{
-    position: fixed;
-    background-color: blue;
-    height: 100vh;
-    width: 100vi;
+#startsrn{
+  position: relative;
+  background-color: #BAC6FF;
+  width: 100vi;
+  height: 100vh;
+}
+#startbttn{
+  position: absolute;
+  bottom: 50px;
+  width: 40vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 300px;
+  height: 8.5vh;
+
+  background: #6451D4;
+  border-radius: 20px;
+  border: 2px solid;
+
+  color: white;
+  font-weight: 200;
+  font-size: 20px;
+}
+#startp{
+  position: absolute;
+  width: 60vw;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+
+  border: solid;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+#Simg{
+  position: absolute;
+  width: 80vw;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 300px;
+  max-width: 700px;
 
 }
+
+
 h3{
     font-style: italic;
 }
@@ -32,6 +73,9 @@ box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 15px 0 rgba(0, 0, 0, 0.19);
 }
 
 
+
+
+
   @keyframes pulse-glow {
     0%{
       transform: scale(1);
@@ -42,5 +86,31 @@ box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 15px 0 rgba(0, 0, 0, 0.19);
       box-shadow: 0 0 0 15px rgba(22, 95, 143, 0);
     }
   }
+
+footer {
+  position: relative;
+  bottom: 0;
+  height: 6vmax;
+  background-color: lightblue;
+}
+.footbt {
+  margin: 0;
+  height: 100%;
+  border: none;
+  left: 1px;
+  width: 32%;
+  background-color: lightblue;
+  display: inline;
+}
+.footbt:hover {
+  background-color: rgb(106, 151, 167);
+}
+
+@keyframes fade{
+  0%{opacity: 100%;
+  }
+  100%{opacity: 0%;}
+
+}
   
 

@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="../add.css" />
     <script src="../add.js" defer></script>
-    <title>Rocks</title>
+    <title>Rock Bridge</title>
 </head>
 <body>
     <h1>Rock Bridge</h1>
@@ -16,21 +16,27 @@
 
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
-          <div class="numbertext">1 / 3</div>
-          <img src="../Images/inside.jpg" style="width:100%">
-          <div class="text">One</div>
+          <div class="numbertext">1 / 4</div>
+          <img src="../Images/rockbridge_frount.jpg" style="width:100%">
+          <div class="text">Rock Parth</div>
         </div>
       
         <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="../Images/cosvation.jpg" style="width:100%">
-          <div class="text">Two</div>
+          <div class="numbertext">2 / 4</div>
+          <img src="../Images/RockBridge_2nd.jpg" style="width:100%">
+          <div class="text">Lakes</div>
         </div>
       
         <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="../Images/Picture1.png" style="width:100%">
-          <div class="text">Three</div>
+          <div class="numbertext">3 / 4</div>
+          <img src="../Images/rockbridge3rd.jpg" style="width:100%">
+          <div class="text">Sigh</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="../Images/rockbridge_4.jpg" style="width:100%">
+          <div class="text">Bird</div>
         </div>
       
         <!-- Next and previous buttons -->
@@ -44,6 +50,7 @@
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
       </div>
     </div>
 
@@ -78,10 +85,10 @@ level. Though none of this is particularly evident from just looking at
 
   <aside>Credits for photos</aside>
 
-  <footer>
-    <button class="footbt">About</button>
-    <button class="footbt">hmmm</button>
-    <button class="footbt">helo</button>
+   <footer>
+    <button class="footbt" onclick="about()">About</button>
+    <button class="footbt" onclick="credits()">Credits </button>
+    <button class="footbt"onclick="info()">More Info</button>
   </footer>
     
 </body>

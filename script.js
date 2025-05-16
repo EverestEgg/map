@@ -1,8 +1,15 @@
+function next() {
+  window.location.href = "../map.html";
+
+  //pls work
+}
+
+//MAP STUFF
 var map = L.map("map").setView([-37.837649, 144.872128], 15);
 
 // Stes the map
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  minZoom: 15,
+  minZoom: 13,
   maxZoom: 20,
   setMaxBounds: [
     [-37.83321, 144.86804],
@@ -18,7 +25,7 @@ var rocks = L.marker([-37.838217, 144.873405], {
 }).addTo(map);
 
 rocks.bindPopup(
-  "<h3>Rock Bridge</h3> <a class='pageshift' href='Further/rock.html'><img class='linkimg' src='Images/inside.jpg'></a> <br> <audio controls src='/audio/websiteadd.mp3' type=audio/mp3>",
+  "<h3>Rock Bridge</h3> <a class='pageshift' href='Further/rock.html'><img class='linkimg' src='Images/rockbridge_frount.jpg'></a> <br> <audio controls src='/audio/websiteadd.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
@@ -30,7 +37,7 @@ var entrance = L.marker([-37.839615, 144.871838], {
 }).addTo(map);
 
 entrance.bindPopup(
-  "<h3>Entrance</h3> <a class='pageshift' href='Further/entrance.html'><img class='linkimg' src='Images/inside.jpg'></a> <br> <audio controls src='/audio/websiteadd.mp3' type=audio/mp3>",
+  "<h3>Entrance</h3> <a class='pageshift' href='Further/entrance.html'><img class='linkimg' src='Images/Entrane_Frount.jpg'></a> <br> <audio controls src='/audio/websiteadd.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
@@ -74,7 +81,7 @@ var BushDance = L.marker([-37.838424, 144.871618], {
 }).addTo(map);
 
 BushDance.bindPopup(
-  "<h3>Bush Dance</h3> <a class='pageshift' href='Further/Bushdance.html'><img class='linkimg' src='Images/inside.jpg'></a> <br> <audio controls src='/audio/websiteadd.mp3' type=audio/mp3>",
+  "<h3>Bush Dance</h3> <a class='pageshift' href='Further/Bushdance.html'><img class='linkimg' src='Images/Bushdance_fround.jpg'></a> <br> <audio controls src='/audio/websiteadd.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
@@ -123,3 +130,4 @@ Tip.bindPopup(
     maxWidth: 190,
   }
 );
+

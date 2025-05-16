@@ -35,8 +35,18 @@ button {
   position: relative;
   margin: 12px;
   padding: 6px;
-  width: 30%;
+  width: 34%;
   left: 35%;
+  height: 8vmax;
+  max-height: 50px;
+
+  background: #6451D4;
+  border-radius: 20px;
+  border: 2px solid;
+
+  color: white;
+  font-weight: 200;
+  font-size: 20px;
 }
 
 footer {
@@ -49,6 +59,8 @@ footer {
   margin: 0;
   height: 100%;
   border: none;
+  border-radius: 0;
+  color: black;
   left: 1px;
   width: 32%;
   background-color: lightblue;

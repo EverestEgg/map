@@ -33,7 +33,7 @@ function showSlides(n) {
 }
 
 function back() {
-  window.location.href = "../index.html";
+  window.location.href = "../map.html";
 
   //pls work
 }
