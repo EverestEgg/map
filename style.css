@@ -1,7 +1,9 @@
 
-
+*{
+font-family: "Inter", sans-serif;
+}
 #map{
-    height: 93vh;
+    height: 94vh;
 }
 
 #startsrn{
@@ -15,13 +17,13 @@
   bottom: 50px;
   width: 40vw;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
   max-width: 300px;
   height: 8.5vh;
 
   background: #6451D4;
   border-radius: 20px;
-  border: 2px solid;
+  border: 2px inset;
 
   color: white;
   font-weight: 200;
@@ -29,25 +31,39 @@
 }
 #startp{
   position: absolute;
-  width: 60vw;
-  top: 60%;
+  width: 70vw;
+  bottom: 23%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
   max-width: 500px;
+  z-index: 100;
 
-  border: solid;
-  color: rgb(0, 0, 0);
+  color: rgb(11, 0, 22);
   text-align: center;
+  font-size: 80%;
+}
+h1{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  padding-bottom: 5px;
+
+  font-size: 180%;
+  font-style: italic;
+  font-weight: bold;
+  color: #06021f;
+
 }
 
 #Simg{
   position: absolute;
   width: 80vw;
-  top: 30%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-height: 300px;
-  max-width: 700px;
+  max-height: 200px;
+  max-width: 600px;
 
 }
 
@@ -68,13 +84,9 @@ box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 15px 0 rgba(0, 0, 0, 0.19);
     max-height: 130px;
     width: 180px;
     border-radius: 8px;
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 15px 0 rgba(0, 0, 0, 0.19);
-    animation: pulse-glow 2s infinite;
+    border: solid #BAC6FF 1.7px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4), 0 10px 15px 0 rgba(0, 0, 0, 0.4);
 }
-
-
-
-
 
   @keyframes pulse-glow {
     0%{
@@ -90,7 +102,7 @@ box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 15px 0 rgba(0, 0, 0, 0.19);
 footer {
   position: relative;
   bottom: 0;
-  height: 6vmax;
+  height: 6vh;
   background-color: lightblue;
 }
 .footbt {

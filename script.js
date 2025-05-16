@@ -1,8 +1,14 @@
 function next() {
   window.location.href = "../map.html";
-
   //pls work
 }
+function about(){
+window.location.href = "../about.html";
+}
+function credits(){
+window.location.href = "../credit.html";
+}
+
 
 //MAP STUFF
 var map = L.map("map").setView([-37.837649, 144.872128], 15);
@@ -41,6 +47,7 @@ entrance.bindPopup(
   {
     maxWidth: 190,
   }
+
 );
 
 var BirdHide = L.marker([-37.8364, 144.873222], {

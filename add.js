@@ -1,4 +1,14 @@
 // Js for additonal pages
+
+function about(){
+window.location.href = "../about.html";
+}
+function credits(){
+window.location.href = "../credit.html";
+}
+
+
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
