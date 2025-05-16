@@ -1,10 +1,10 @@
 // Js for additonal pages
 
 function about(){
-window.location.href = "../about.html";
+window.location.href = "../map/about.html";
 }
 function credits(){
-window.location.href = "../credit.html";
+window.location.href = "../map/credit.html";
 }
 
 
@@ -43,7 +43,7 @@ function showSlides(n) {
 }
 
 function back() {
-  window.location.href = "../map.html";
+  window.location.href = "../map/map.html";
 
   //pls work
 }
