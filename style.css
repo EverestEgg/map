@@ -1,18 +1,17 @@
-
-*{
-font-family: "Inter", sans-serif;
+* {
+  font-family: "Inter", sans-serif;
 }
-#map{
-    height: 94vh;
+#map {
+  height: 94vh;
 }
 
-#startsrn{
+#startsrn {
   position: relative;
-  background-color: #BAC6FF;
+  background-color: #bac6ff;
   width: 100vi;
   height: 100vh;
 }
-#startbttn{
+#startbttn {
   position: absolute;
   bottom: 50px;
   width: 40vw;
@@ -21,7 +20,7 @@ font-family: "Inter", sans-serif;
   max-width: 300px;
   height: 8.5vh;
 
-  background: #6451D4;
+  background: #6451d4;
   border-radius: 20px;
   border: 2px inset;
 
@@ -29,7 +28,7 @@ font-family: "Inter", sans-serif;
   font-weight: 200;
   font-size: 20px;
 }
-#startp{
+#startp {
   position: absolute;
   width: 70vw;
   bottom: 23%;
@@ -42,7 +41,7 @@ font-family: "Inter", sans-serif;
   text-align: center;
   font-size: 80%;
 }
-h1{
+h1 {
   position: absolute;
   top: 5%;
   left: 50%;
@@ -53,51 +52,48 @@ h1{
   font-style: italic;
   font-weight: bold;
   color: #06021f;
-
 }
 
-#Simg{
+#Simg {
   position: absolute;
-  width: 80vw;
+  width: 70vw;
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-height: 200px;
   max-width: 600px;
-
 }
 
-
-h3{
-    font-style: italic;
+h3 {
+  font-style: italic;
 }
 
-audio{
-max-width: 180px;
-height: 33px;
-border-radius: 15px;
-box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 15px 0 rgba(0, 0, 0, 0.19);
+audio {
+  max-width: 180px;
+  height: 33px;
+  border-radius: 15px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 15px 0 rgba(0, 0, 0, 0.19);
 }
 
-.linkimg{
-    object-fit: cover;
-    max-height: 130px;
-    width: 180px;
-    border-radius: 8px;
-    border: solid #BAC6FF 1.7px;
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4), 0 10px 15px 0 rgba(0, 0, 0, 0.4);
+.linkimg {
+  object-fit: cover;
+  max-height: 130px;
+  width: 180px;
+  border-radius: 8px;
+  border: solid #bac6ff 1.7px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4), 0 10px 15px 0 rgba(0, 0, 0, 0.4);
 }
 
-  @keyframes pulse-glow {
-    0%{
-      transform: scale(1);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
-    }
-    100% {
-      transform: scale(1);
-      box-shadow: 0 0 0 15px rgba(22, 95, 143, 0);
-    }
+@keyframes pulse-glow {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
   }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 15px rgba(22, 95, 143, 0);
+  }
+}
 
 footer {
   position: relative;
@@ -118,11 +114,11 @@ footer {
   background-color: rgb(106, 151, 167);
 }
 
-@keyframes fade{
-  0%{opacity: 100%;
+@keyframes fade {
+  0% {
+    opacity: 100%;
   }
-  100%{opacity: 0%;}
-
+  100% {
+    opacity: 0%;
+  }
 }
-  
-
