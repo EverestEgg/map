@@ -2,13 +2,12 @@ function next() {
   window.location.href = "../map/map.html";
   //pls work
 }
-function about(){
-window.location.href = "../map/about.html";
+function about() {
+  window.location.href = "../map/about.html";
 }
-function credits(){
-window.location.href = "../map/credit.html";
+function credits() {
+  window.location.href = "../map/credit.html";
 }
-
 
 //MAP STUFF
 var map = L.map("map").setView([-37.837649, 144.872128], 15);
@@ -47,7 +46,6 @@ entrance.bindPopup(
   {
     maxWidth: 190,
   }
-
 );
 
 var BirdHide = L.marker([-37.8364, 144.873222], {
@@ -110,7 +108,7 @@ var Swans = L.marker([-37.8366276, 144.874582], {
 }).addTo(map);
 
 Swans.bindPopup(
-  "<h3>Swans</h3> <a class='pageshift' href='Further/swans.html'><img class='linkimg' src='Images/inside.jpg'></a> <br> <audio controls src='/audio/websiteadd.mp3' type=audio/mp3>",
+  "<h3>Swans</h3> <a class='pageshift' href='Further/swans.html'><img class='linkimg' src='Images/Swan_Frount.jpg'></a> <br> <audio controls src='/audio/websiteadd.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
@@ -137,4 +135,3 @@ Tip.bindPopup(
     maxWidth: 190,
   }
 );
-
