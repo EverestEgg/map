@@ -36,12 +36,12 @@ audio {
   margin: 12px;
   padding: 6px;
   width: 34%;
-  left: 50% ;
+  left: 50%;
   transform: translate(-50%, -50%);
   height: 8vmax;
   max-height: 50px;
 
-  background: #6451D4;
+  background: #6451d4;
   border-radius: 20px;
   border: 2px solid;
 
@@ -49,7 +49,6 @@ audio {
   font-weight: 200;
   font-size: 20px;
 }
-
 
 footer {
   position: relative;
@@ -77,7 +76,8 @@ footer {
 }
 /* Slideshow container */
 .slideshow-container {
-  max-width: 95%;
+  width: 95%;
+  max-width: 700px;
   position: relative;
   margin: auto;
 }
@@ -163,5 +163,27 @@ footer {
   }
   to {
     opacity: 1;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  audio {
+    width: 600px;
+    font-size: 25px;
+  }
+
+  p {
+    font-size: large;
+  }
+  h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+  #bbut {
+    font-size: 30px;
   }
 }
