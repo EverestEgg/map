@@ -1,6 +1,7 @@
 * {
-  font-family: "Inter", sans-serif;
+  font-family: "Sorts Mill Goudy", serif;
 }
+
 #map {
   height: 94vh;
 }
@@ -49,6 +50,7 @@ h1 {
   padding-bottom: 5px;
 
   font-size: 180%;
+  font-family: "Cormorant", serif;
   font-style: italic;
   font-weight: bold;
   color: #06021f;
@@ -70,6 +72,10 @@ h1 {
 
 h3 {
   font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Cormorant", serif;
+  margin-bottom: 3px;
 }
 
 audio {
