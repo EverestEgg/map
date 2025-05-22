@@ -166,6 +166,41 @@ footer {
   }
 }
 
+#italic {
+  font-style: italic;
+}
+ul {
+  margin-top: 10px;
+  padding-left: 30px;
+}
+li {
+  max-width: 90vw;
+}
+#extatit {
+  font-size: 30px;
+  margin: 20px;
+}
+#extrasub {
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+#extrabut {
+  margin: 12px;
+  padding: 6px;
+  width: 34%;
+  height: 8vmax;
+  max-height: 50px;
+
+  background: #6451d4;
+  border-radius: 20px;
+  border: 2px solid;
+
+  color: white;
+  font-weight: 200;
+  font-size: 20px;
+}
+
 @media screen and (min-width: 480px) {
   audio {
     width: 600px;
