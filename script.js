@@ -97,7 +97,7 @@ var Fonl = L.marker([-37.8394858, 144.8724858], {
 }).addTo(map);
 
 Fonl.bindPopup(
-  "<h3>Friends of Newport Lakes</h3> <a class='pageshift' href='Further/fnl.html'><img class='linkimg' src='Images/inside.jpg'></a> <br> <audio controls src='/audio/fnl1.18.mp3' type=audio/mp3>",
+  "<h3>Friends of Newport Lakes</h3> <a class='pageshift' href='Further/fnl.html'><img class='linkimg' src='Images/fnl_frount.jpg'></a> <br> <audio controls src='/audio/fnl1.18.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
