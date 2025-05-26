@@ -93,27 +93,17 @@ audio {
   max-height: 130px;
   width: 180px;
   border-radius: 8px;
-  border: solid #bac6ff 1.7px;
-  animation: pulse-glow 3s infinite;
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4), 0 10px 15px 0 rgba(0, 0, 0, 0.4);
+  border: solid #a3ade0 2px;
+  animation: pulse 3s infinite;
+  box-shadow: 0 8px 8px 0 rgba(5, 22, 34, 0.4), 0 10px 15px 0 rgba(9, 38, 58, 0.4);
 }
 
-@keyframes pulse-glow {
-  0%, 100% {
-    transform: scale(1);
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
-  }
-  50%% {
-    transform: scale(1.1);
-    box-shadow: 0 0 0 15px rgba(22, 95, 143, 0);
-  }
-}
 @keyframes pulse {
   0%, 100% {
-    transform: scale(1);
+    transform: scale(1) translateY(5px);
   }
   50% {
-    transform: scale(1.1);
+    transform: scale(1.1) translateY(0px);
   }
 }
 
