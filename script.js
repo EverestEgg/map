@@ -53,7 +53,7 @@ var BirdHide = L.marker([-37.8364, 144.873222], {
 }).addTo(map);
 
 BirdHide.bindPopup(
-  "<h3>Bird Hide</h3> <a class='pageshift' href='Further/birds.html'><img class='linkimg' src='Images/inside.jpg'></a> <br> <audio controls src='/audio/bird12.21.mp3' type=audio/mp3>",
+  "<h3>Bird Hide</h3> <a class='pageshift' href='Further/birds.html'><img class='linkimg' src='Images/bird_frount.jpg'></a> <br> <audio controls src='/audio/bird12.21.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
@@ -64,7 +64,7 @@ var Quarry = L.marker([-37.8390195, 144.8746423], {
 }).addTo(map);
 
 Quarry.bindPopup(
-  "<h3>Quarry</h3> <a class='pageshift' href='Further/quarry.html'><img class='linkimg' src='Images/inside.jpg'></a> <br> <audio controls src='/audio/quarry1.06.mp3' type=audio/mp3>",
+  "<h3>Quarry</h3> <a class='pageshift' href='Further/quarry.html'><img class='linkimg' src='Images/quarry_frount.jpg'></a> <br> <audio controls src='/audio/quarry1.06.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
@@ -119,7 +119,7 @@ var COVID = L.marker([-37.83764, 144.872962], {
 }).addTo(map);
 
 COVID.bindPopup(
-  "<h3>COVID</h3> <a class='pageshift' href='Further/covid.html'><img class='linkimg' src='Images/inside.jpg'></a> <br> <audio controls src='/audio/covid12.10.mp3' type=audio/mp3>",
+  "<h3>COVID</h3> <a class='pageshift' href='Further/covid.html'><img class='linkimg' src='Images/Covid_frount.jpg'></a> <br> <audio controls src='/audio/covid12.10.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
@@ -130,8 +130,12 @@ var Tip = L.marker([-37.836702, 144.871143], {
 }).addTo(map);
 
 Tip.bindPopup(
-  "<h3>Tip</h3> <a class='pageshift' href='Further/tip.html'><img class='linkimg' src='Images/inside.jpg'></a> <br> <audio controls src='/audio/dog11.56.mp3' type=audio/mp3>",
+  "<h3>Tip</h3> <a class='pageshift' href='Further/tip.html'><img class='linkimg' src='Images/Tip_frount-1.jpg'></a> <br> <audio controls src='/audio/dog11.56.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
 );
+
+window.onload = function() {
+ entrance.openPopup();
+};
