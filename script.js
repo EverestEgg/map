@@ -30,7 +30,7 @@ var rocks = L.marker([-37.838217, 144.873405], {
 }).addTo(map);
 
 rocks.bindPopup(
-  "<h3>Rock Bridge</h3> <a class='pageshift' href='Further/rock.html'><img class='linkimg' src='Images/rockbridge_frount.jpg'></a> <br> <audio controls src='/audio/rock12.53.mp3' type=audio/mp3>",
+  "<h3>Rock Bridge</h3> <a class='pageshift' href='Further/rock.html'><img class='linkimg' src='Images/rockbridge_frount.jpg'></a> <br> <audio controls src='audio/rock12.53.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
@@ -42,7 +42,7 @@ var entrance = L.marker([-37.839615, 144.871838], {
 }).addTo(map);
 
 entrance.bindPopup(
-  "<h3>Entrance</h3> <a class='pageshift' href='Further/entrance.html'><img class='linkimg' src='Images/Entrane_Frount.jpg'></a> <br> <audio controls src='/audio/entrance1.25.mp3' type=audio/mp3>",
+  "<h3>Entrance</h3> <a class='pageshift' href='Further/entrance.html'><img class='linkimg' src='Images/Entrane_Frount.jpg'></a> <br> <audio controls src='audio/entrance1.25.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
@@ -53,7 +53,7 @@ var BirdHide = L.marker([-37.8364, 144.873222], {
 }).addTo(map);
 
 BirdHide.bindPopup(
-  "<h3>Bird Hide</h3> <a class='pageshift' href='Further/birds.html'><img class='linkimg' src='Images/bird_frount.jpg'></a> <br> <audio controls src='/audio/bird12.21.mp3' type=audio/mp3>",
+  "<h3>Bird Hide</h3> <a class='pageshift' href='Further/birds.html'><img class='linkimg' src='Images/bird_frount.jpg'></a> <br> <audio controls src='audio/bird12.21.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
@@ -64,7 +64,7 @@ var Quarry = L.marker([-37.8390195, 144.8746423], {
 }).addTo(map);
 
 Quarry.bindPopup(
-  "<h3>Quarry</h3> <a class='pageshift' href='Further/quarry.html'><img class='linkimg' src='Images/quarry_frount.jpg'></a> <br> <audio controls src='/audio/quarry1.06.mp3' type=audio/mp3>",
+  "<h3>Quarry</h3> <a class='pageshift' href='Further/quarry.html'><img class='linkimg' src='Images/quarry_frount.jpg'></a> <br> <audio controls src='audio/quarry1.06.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
@@ -75,7 +75,7 @@ var Playground = L.marker([-37.839938, 144.870513], {
 }).addTo(map);
 
 Playground.bindPopup(
-  "<h3>Playground</h3> <a class='pageshift' href='Further/playground.html'><img class='linkimg' src='Images/park_frount.jpg'></a> <br> <audio controls src='/audio/playground11.45.mp3' type=audio/mp3>",
+  "<h3>Playground</h3> <a class='pageshift' href='Further/playground.html'><img class='linkimg' src='Images/park_frount.jpg'></a> <br> <audio controls src='audio/playground11.45.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
@@ -97,7 +97,7 @@ var Fonl = L.marker([-37.8394858, 144.8724858], {
 }).addTo(map);
 
 Fonl.bindPopup(
-  "<h3>Friends of Newport Lakes</h3> <a class='pageshift' href='Further/fnl.html'><img class='linkimg' src='Images/fnl_frount.jpg'></a> <br> <audio controls src='/audio/fnl1.18.mp3' type=audio/mp3>",
+  "<h3>Friends of Newport Lakes</h3> <a class='pageshift' href='Further/fnl.html'><img class='linkimg' src='Images/fnl_frount.jpg'></a> <br> <audio controls src='audio/fnl1.18.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
@@ -108,7 +108,7 @@ var Swans = L.marker([-37.8366276, 144.874582], {
 }).addTo(map);
 
 Swans.bindPopup(
-  "<h3>Swans</h3> <a class='pageshift' href='Further/swans.html'><img class='linkimg' src='Images/Swan_Frount.jpg'></a> <br> <audio controls src='/audio/swans12.29.mp3' type=audio/mp3>",
+  "<h3>Swans</h3> <a class='pageshift' href='Further/swans.html'><img class='linkimg' src='Images/Swan_Frount.jpg'></a> <br> <audio controls src='audio/swans12.29.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
@@ -119,7 +119,7 @@ var COVID = L.marker([-37.83764, 144.872962], {
 }).addTo(map);
 
 COVID.bindPopup(
-  "<h3>COVID</h3> <a class='pageshift' href='Further/covid.html'><img class='linkimg' src='Images/Covid_frount.jpg'></a> <br> <audio controls src='/audio/covid12.10.mp3' type=audio/mp3>",
+  "<h3>COVID</h3> <a class='pageshift' href='Further/covid.html'><img class='linkimg' src='Images/Covid_frount.jpg'></a> <br> <audio controls src='audio/covid12.10.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
@@ -130,7 +130,7 @@ var Tip = L.marker([-37.836702, 144.871143], {
 }).addTo(map);
 
 Tip.bindPopup(
-  "<h3>Tip</h3> <a class='pageshift' href='Further/tip.html'><img class='linkimg' src='Images/Tip_frount-1.jpg'></a> <br> <audio controls src='/audio/dog11.56.mp3' type=audio/mp3>",
+  "<h3>Tip</h3> <a class='pageshift' href='Further/tip.html'><img class='linkimg' src='Images/Tip_frount-1.jpg'></a> <br> <audio controls src='audio/dog11.56.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
