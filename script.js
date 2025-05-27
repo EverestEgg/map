@@ -108,7 +108,7 @@ var Swans = L.marker([-37.8366276, 144.874582], {
 }).addTo(map);
 
 Swans.bindPopup(
-  "<h3>Swans</h3> <a class='pageshift' href='Further/swans.html'><img class='linkimg' src='Images/Swan_Frount.jpg'></a> <br> <audio controls src='audio/swans12.29.mp3' type=audio/mp3>",
+  "<h3>Swans</h3> <a class='pageshift' href='Further/swans.html'><img class='linkimg' src='Images/swans_maby.jpg'></a> <br> <audio controls src='audio/swans12.29.mp3' type=audio/mp3>",
   {
     maxWidth: 190,
   }
