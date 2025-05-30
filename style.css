@@ -94,8 +94,16 @@ audio {
   width: 180px;
   border-radius: 8px;
   border: solid #a3ade0 2px;
-  animation: pulse 3s infinite;
   box-shadow: 0 8px 8px 0 rgba(5, 22, 34, 0.4), 0 10px 15px 0 rgba(9, 38, 58, 0.4);
+}
+.point{
+  position: absolute;
+  height: 37px;
+  top: 56%;
+  left: 73%;
+  rotate: -30deg;
+  filter: brightness(100);
+  animation: pulse 1.5s infinite;
 }
 
 @keyframes pulse {

@@ -42,7 +42,7 @@ var entrance = L.marker([-37.839615, 144.871838], {
 }).addTo(map);
 
 entrance.bindPopup(
-  "<h3>Entrance</h3> <a class='pageshift' href='Further/entrance.html'><img class='linkimg' src='Images/Entrane_Frount.jpg'></a> <br> <audio controls src='audio/entrance1.25.mp3' type=audio/mp3>",
+  "<h3>Entrance</h3> <a class='pageshift' href='Further/entrance.html'><img class='linkimg' src='Images/Entrane_Frount.jpg'><img class='point' src='Images/pointer.png'></a> <br> <audio controls src='audio/entrance1.25.mp3' type=audio/mp3> ",
   {
     maxWidth: 190,
   }
