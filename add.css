@@ -2,9 +2,11 @@
   box-sizing: border-box;
   font-family: "Sorts Mill Goudy", serif;
 }
+body {
+  background-color: rgb(238, 240, 219);
+}
 
 h1 {
-  background-color: white;
   padding: 12px;
   padding-bottom: 0;
   font-size: x-large;
@@ -33,6 +35,7 @@ audio {
   height: 34px;
   width: 95%;
   border-radius: 10px;
+  background-color: rgb(238, 240, 219);
 }
 #bbut {
   position: relative;
