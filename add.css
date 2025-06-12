@@ -189,7 +189,7 @@ li {
 #extrasub {
   margin-top: 15px;
   margin-left: 10vw;
-  font-size: 20px;
+  font-size: 25px;
 }
 #extrabut {
   margin: 12px;
@@ -259,6 +259,7 @@ li {
   #abttit{
     text-align: center;
     transform: translate(5%, 0);
+    font-size: 50px;
 
   }
   #bbut {
