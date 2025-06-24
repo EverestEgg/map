@@ -106,14 +106,6 @@ audio {
   animation: pulse 1.5s infinite;
 }
 
-#abtfot{
-  position: absolute;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  bottom: 0;
-}
-
 @keyframes pulse {
   0%, 100% {
     transform: scale(1) translateY(5px);
@@ -126,7 +118,7 @@ audio {
 footer {
   position: relative;
   bottom: 0;
-  height: 6vh;
+  height: 6.5vh;
   background-color: lightblue;
 }
 .footbt {

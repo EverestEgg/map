@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="add.css" />
     <script src="script.js" defer></script>
     <script src="add.js" defer></script>
@@ -12,26 +11,31 @@
     <title>About Newport Lakes Map</title>
   </head>
 
-  <body >
-    <h2 class="extatit" id="abttit">About</h2>
-    <h2 id="extrasub">How to Use</h2>
-    <ul class="abttxt">
-    Click on the images in the pop up to learn more about each location.
+  <body>
+    <h1 class="extatit">About</h1>
+
+    <h2 id="extrasub" class="abth2">How to Use</h2>
+    <ul id="ulabt">
+       Click on the images in the pop up to learn more about each location.
 
 It is a guided tour of the Lakes, as you walk around stop at each marker and you can learn more about your surroundings.
 <br><br>
 If your not in at the Lakes, the photos and field recordings give a good overview of the location. 
     </ul>
-    <h2 id="extrasub">Made by</h2>
-    <ul class="abttxt">By Emma Church 
+    <h2 id="extrasub" class="abth2">Made by</h2>
+
+    <ul id="ulabt">
+By Emma Church 
 
 Audio: ZOOM H5 Recorder and a Bauhn Condenser Microphone. edited using Reaper
 <br><br>
 Photos: by me using a Cannon EOS 90D unless stated otherwise</ul>
 
-    <button onclick="back()" id="abtbut">Back</button>
+    </ul>
 
-    <footer id="abtfot">
+    <button onclick="cmap()" class="extrabut" id="btabt">Back</button>
+
+    <footer id="footabt">
       <button class="footbt" onclick="cmap()">Map</button>
       <button class="footbt" onclick="acredit()">Credits</button>
     </footer>

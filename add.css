@@ -59,7 +59,7 @@ audio {
 footer {
   position: relative;
   bottom: 0;
-  height: 6vmax;
+  height: 7vh;
   background-color: lightblue;
 }
 .footbt {
@@ -191,7 +191,7 @@ li {
   margin-left: 10vw;
   font-size: 25px;
 }
-#extrabut {
+.extrabut {
   margin: 12px;
   left: 50%;
   position: relative;
@@ -209,24 +209,17 @@ li {
   font-weight: 200;
   font-size: 20px;
 }
-#abtbut{
-   margin: 12px;
-  left: 50%;
-  bottom: 10%;
+
+
+#footabt{
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+}
+#btabt{
   position: absolute;
-  padding: 6px;
-  width: 34%;
-  transform: translate(-50%, 0);
-  height: 8vmax;
-  max-height: 50px;
-
-  background: #6451d4;
-  border-radius: 20px;
-  border: 2px solid;
-
-  color: white;
-  font-weight: 200;
-  font-size: 20px;
+  bottom: 10%;
+  padding: 10px;
 }
 
 @media screen and (min-width: 480px) {
@@ -245,23 +238,25 @@ li {
   }
   h2{
     font-size: 50px;
+    align-self: center;
     text-align: center;
-    margin: 0;
+    padding: 5px;
   }
-  .abttxt{
+  #ulabt{
     text-align: center;
-    font-size: 20px;
+    transform: translate(-5%,0);
+    margin-left: 10%;
+    margin-right: 10%;
   }
+  .abth2{
+   transform: translate(-5%,0);
+  }
+  
   h3 {
     text-align: center;
     font-size: 30px;
   }
-  #abttit{
-    text-align: center;
-    transform: translate(5%, 0);
-    font-size: 50px;
-
-  }
+ 
   #bbut {
     font-size: 30px;
   }
